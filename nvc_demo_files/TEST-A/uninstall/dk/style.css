@@ -1,0 +1,83 @@
+/* CSS Document */
+body { 
+	background-color:#8CB7DB; 
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+div.head {
+	text-align:left;
+	margin-left:100px;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0px 10px 0px;
+	}
+div.body {
+	margin-top:10px;
+	margin-left:100px;
+	margin-right:120px;
+	}
+div.bodycenter {
+	margin-top:20px;
+	text-align:center;
+	}
+img { 
+	border:none; 
+	margin-right:12px; 
+	}
+p	{
+	margin: 4px 0px 4px 0px;
+	}
+p.install	{
+	margin: 4px 0px 12px 0px;
+	font-weight:bold;
+	}
+td {
+	text-align:left;
+	}
+td.r {
+	text-align:right;
+}
+td.c {
+	text-align:center;
+	}
+input.directory {
+	background:#9ce;
+	border:1px solid #7ac;
+	padding:2px;
+	}
+input.dirbutton {
+	background:#9ce;
+	border:1px solid #7ac;
+	padding:0px;
+	}
+.errormsg {
+	background-color:#fee;
+	color:#000;
+	border:1px solid #f00;
+	padding:5px;
+	margin:5px 0px;
+	font-size:20px;
+	}
+#fileprogress {
+	font-weight:bold;
+	width:300px;
+	padding:2px;
+	background:#9ce;
+	}
+#Error1,#Error2,#Error3,#Error4,#Error5,#Error6,#Error7,
+#Data1,#Data2 {
+	visibility:hidden;
+	}
+#LicenceText,#Uninstall {
+	height:200px; 
+	width:500px; 
+	overflow-x:hidden; 
+	overflow-y:auto; 
+	text-align:left;
+	background:#9ce;
+	margin-bottom:10px;
+	padding:3px;
+	}
+	

@@ -1,0 +1,24 @@
+# All Languages
+language *
+localdir \nvinst\manual
+programs "nv. digital"
+
+Productnumber 2
+
+# German Part
+language de
+Productname Zubehör
+copy Legende.pdf
+menu "Kartenlegende" Legende.pdf
+
+# English Part
+language uk
+Productname Accessories
+copy Legende.pdf
+menu "Chart Legend" Legende.pdf
+
+# Danish Part
+language dk
+Productname Tilbehør
+copy Legende.pdf
+menu "Signaturforklaring" Legende.pdf

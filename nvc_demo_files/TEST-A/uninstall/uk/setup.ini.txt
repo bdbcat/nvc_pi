@@ -1,0 +1,9 @@
+#startseite
+WindowSize 700 500
+Regkey NV-Digital
+OnStart uninstall.htm
+
+#quelle-ziel abfrage
+uninstall.htm Uninstall ok=uninstall.htm button1=exit
+uninstalling.htm Uninstalling ok=exit button1=uninstall.htm
+

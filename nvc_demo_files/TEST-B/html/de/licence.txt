@@ -1,0 +1,48 @@
+Achtung: Bitte lesen Sie den beiliegenden Lizenzvertrag sorgfältig. Mit der Installation erkennen Sie den Lizenzvertrag an:
+
+§ 1
+Vertragsgegenstand
+
+Dieser Lizenzvertrag regelt das Rechtsverhältnis zwischen dem Lizenzgeber Nautische Veröffentlichung Verlagsgessellschaft, 24399 Arnis, Langestr.95. Deutschland (NV-Verlag) und dem Lizenznehmer (Kunde). 
+
+Dem Kunden wird eine Lizenz zur Nutzung der auf der CD enthaltenen Softwareprodukte gewährt. Zu den Softwareprodukten können gehören das Navigationsprogramm Chart Navigator light, Standard oder Professional, digitale Seekarten, Fotos, Texte, Tabellen und sonstige der Navigation dienende Daten.
+
+Es handelt sich weder um eine ausschließliche, noch um eine übertragbare Lizenz. Der Kunde ist berechtigt, die Softwareprodukte und die dazugehörigen Unterlagen und Dokumentationen entsprechend den nachfolgenden Bedingungen zu nutzen. Dem Kunden werden außer den vorgenannten Nutzungsrechten keine weiteren Rechte gewährt. Insbesondere wird kein Eigentum an dem Softwareprodukt auf den Kunden übertragen.
+
+§ 2
+Umfang der Rechte
+
+Die Lizenz umfaßt das Recht, die Softwareprodukte nur auf zwei Rechnern und zum Betrieb an zwei Bildschirmarbeitsplätzen (Einzelplatzanwendung) zu nutzen. Die Einbindung in Netzwerke, Mehrplatz-Computeranlagen und Datenfernübertragungssysteme (einschließlich Telefon) bedarf einer gesonderten Genehmigung vom NV-Verlag. Der Kunde wird die Softwareprodukte nicht ändern, übersetzen, zurückentwickeln, entkompilieren oder abgeleitete Werke erstellen. Jegliche Vervielfältigung ist untersagt, ausgenommen ist nur die einmalige Installation auf der Festplatte. Danach ist die CD-Rom für Dritte unzugänglich zu archivieren.
+
+Der Lizenznehmer hat bei einem Verstoß gegen vorstehende Verpflichtungen unter Ausschluß des Fortsetzungszusammenhangs eine Vertragsstrafe in Höhe von 10.000,00 EUR an den NV-Verlag zu zahlen. Die Geltendmachung von Schadensersatz ist dadurch nicht ausgeschlossen. Unbeschadet der Vertragsstrafe und der Geltendmachung von Schadensersatz wird der NV-Verlag bei Verstößen gegen die vorstehenden Bestimmungen das erteilte Nutzungsrecht widerrufen, ohne daß ein Anspruch auf Rückzahlung der geleisteten Lizenzgebühr besteht.
+
+Die mit dieser CD-Rom darstellbaren Seekarten und Navigationshilfsmittel entsprechen dem auf der CD aufgedruckten oder hinterlegten Stand. Eine Gewähr für die Richtigkeit der wiedergegebenen Daten und Berechnungen wird nicht übernommen. Der NV-Verlag haftet nicht für Schäden, es sei denn, daß ein Schaden durch Vorsatz oder grobe Fahrlässigkeit vom NV-Verlag verursacht wurde. Die Navigation mit den Programmen des NV-Verlag ist im Bereich der Schiffahrt nur bei gleichzeitiger Navigation auf entsprechenden Papierkarten zulässig.
+
+§ 3
+Schutzrechte
+
+Der Kunde akzeptiert die Patent-, Urheber- und Warenzeichenrechte der an der Software und den Kartendaten beteiligten Firmen: Rose Point Navigation Systems LLC, Navicarte und Nautischen Veröffentlichung Verlagsgesellschaft mbh in uneingeschränkter Form. Der Kunde verpflichtet sich, Beeinträchtigungen oder Verletzungen dieser Rechte durch Dritte, soweit diese durch ihn oder über ihn in den Besitz des Produktes gelangt sind, zu unterbinden und zu verfolgen.
+
+§ 4
+Updates
+
+Der NV-Verlag ist berechtigt aber nicht verpflichtet, jederzeit Ausführung und Inhalt seiner Produkte zu aktualisieren (Updates). Auch die Updates unterliegen den Bestimmungen dieses Vertrages. Der NV-Verlag ist berechtigt aber nicht verpflichtet, registrierte Kunden über Updates zu informieren bzw. entsprechende Dateien anzubieten. 
+
+§ 5
+Haftung
+
+Die Software funktioniert entsprechend der im Verkaufsprospekt angegebenen Spezifikationen. Der NV-Verlag übernimmt keine Gewähr für die Eignung des Produktes bezüglich der zu beabsichtigten Verwendung des Kunden. Dem Kunden sind die Ungenauigkeiten von Seekarten und GPS-Satellitendaten bekannt.
+
+Offensichtliche Mängel des Produktes hat der Kunde innerhalb von acht Tagen seit Ablieferung gegenüber dem NV-Verlag anzuzeigen. Versteckte Mängel sind unverzüglich nach Entdeckung anzuzeigen und zu dokumentieren. Der NV-Verlag kann verlangen, daß das Produkt kostenfrei an ihn zurückgesandt wird.
+
+Nach Wahl vom NV-Verlag wird ein Gewährleistungsmangel durch Nachbesserung bzw. Ersatzlieferung beseitigt. Nur wenn dies scheitert, ist der Kunde zur Wandlung oder Minderung berechtigt, wenn eine Nachfrist von mindestens einem Monat gesetzt wurde. Weitergehende Gewährleistungsrechte sind ausgeschlossen. Der NV-Verlag haftet dem Kunden nur im Rahmen und nach Maßgabe dieses Vertrages. Weitergehende Schadensersatzansprüche des Kunden sind ausgeschlossen, soweit sie nicht vorsätzlich oder grob fahrlässig verschuldet wurden. Die Garantiezeit beträgt sechs Monate gerechnet ab Auslieferung an den Kunden.
+
+§ 6
+Beendigung des Überlassungsvertrages
+
+Der NV-Verlag ist berechtigt, den Vertrag fristlos zu kündigen, wenn der Kunde gegen eine Bestimmung dieses Vertrages verstößt. Der Kunde ist dann nicht mehr zur Nutzung des Produktes berechtigt. Er ist verpflichtet, nach Wahl vom NV-Verlag das Produkt an den NV-Verlag zurückzusenden oder sämtliche Programmdateien zu löschen.
+
+§ 7
+Sonstiges
+
+Es gilt das Recht der Bundesrepublik Deutschland. Als Gerichtsstand wird Hamburg vereinbart. Sollten einzelne Bestimmungen dieses Vertrages unwirksam sein, so wird dadurch die Wirksamkeit der übrigen Vertragsbestimmungen nicht berührt. Die nichtigen bzw. unwirksamen Bestimmungen werden durch solche Bestimmungen ersetzt, die dem wirtschaftlichen Zweck am nächsten kommen.

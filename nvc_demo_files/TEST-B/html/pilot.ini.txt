@@ -1,0 +1,22 @@
+# All Languages
+language *
+localdir \nvinst\data
+copy moorings moorings
+
+# German Part
+language de
+localdir \nvinst\data\DE
+copy HL+LLserie1.mrk
+copy Ltm+series1234.mrk
+
+# English Part
+language uk
+localdir \nvinst\data\DE
+copy HL+LLserie1.mrk
+copy Ltm+series1234.mrk
+
+# Danish Part
+language dk
+localdir \nvinst\data\DK
+copy HL+LLserie1.mrk
+copy Ltm+series1234.mrk

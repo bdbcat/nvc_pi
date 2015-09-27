@@ -1,0 +1,31 @@
+# einstellungen
+WindowSize 700 500
+OnStart language.htm
+
+#Produktspezifisch
+Ciphermode  1
+Removeproducts 7
+Productnumber 6
+Productname TEST-A
+Deletelist deletelist.txt
+Checksum 0c2e0559da7db4ca62936cfc05fe8383
+
+# lizenz abfrage
+showlicence.htm LicenceAccept ok=activate.htm button1=../language.htm
+
+# registrierung CD
+activate.htm Activate button1=telefon.htm skip=choose-maps.htm
+eregister2.php ActivateInternet done=choose-maps.htm nointernet=nointernet.htm
+telefon.htm ActivateTelefon ok=choose-maps.htm button1=activate.htm
+nointernet.htm * ok=activate.htm
+
+# installation karten
+choose-maps.htm Install ok=installing-maps.htm button1=showlicence.htm 
+installing-maps.htm Installing done=choose-software.htm
+
+# installation software
+choose-software.htm Install ok=installing-software.htm button1=choose-maps.htm 
+installing-software.htm Installing done=thankyou.htm
+
+# fertig
+thankyou.htm * ok=exit

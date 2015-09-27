@@ -1,0 +1,7 @@
+# All Languages
+language *
+localdir \nvinst\tides
+copy DE8C2008.C1
+copy DE8T2008.BSH
+copy DE8T2008.D1
+copy DE8T2008.D2

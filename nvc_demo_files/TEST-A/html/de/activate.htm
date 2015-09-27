@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>nv. digital</title>
+
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+<body>
+
+<!-- kopf -->
+<div class="head"><table><tr><td><img src='../logo.gif'></td><td valign="bottom">Freischalten &gt;&gt; Digitale Seekarten</td></tr></table></div>
+
+<!-- inhalt -->
+<div class="body">
+
+<p id="Dongle"></p>
+<p>Bitte machen Sie folgende Angaben:</p>
+<form action="http://nv-data.de/register/eregister2.php" method="post">
+<p>Product ID (siehe CD-Hülle):<br><input type='hidden' id="language" name="f[language]">
+<input type='hidden' id="version" name="f[version]" value="200">
+<input type='hidden' id="installationid" name="f[installationid]">
+<input type='hidden' id="productnumber" name="f[productnumber]">
+<input type="text" size="4" maxlength="4" id="part1" name="f[p1]" onkeyup="n(this,'part2')">-<input type="text" size="4" maxlength="4" id="part2" name="f[p2]" onkeyup="n(this,'part3')">-<input type="text" size="4" maxlength="4" id="part3" name="f[p3]" onkeyup="n(this,'part4')">-<input type="text" size="4" maxlength="4" id="part4" name="f[p4]"></p>
+<p>Vorname:<br><input type="text" id="name1" name="f[name1]" size=40></p>
+<p>Nachname:<br><input type="text" id="name2" name="f[name2]" size=40></p>
+<p>E-Mail:<br><input type="text" id="email" name="f[email]" size=40></p>
+<p><input type="checkbox" id="newsletter" name="f[newletter]" checked="checked"> NV. Newsletter abonnieren</p>
+<p><br>Klicken Sie auf</p>
+<p><input type="submit" id="Submit" value=" Mit Internet    ">, wenn eine Internetverbindung besteht.</p>
+<p><input type="button" id="Button1" value="Ohne Internet">, wenn keine Internetverbindung besteht.</p>
+</form>
+
+</div><!-- ende inhalt-->
+
+
+<!-- diese Fehlermeldunden müssen Unsichtbar sein -->
+<div id="Error1">Bitte überprüfen Sie die Product ID.</div>
+<div id="Error2">Bitte überprüfen Sie Ihren Vor- und Nachnamen.</div>
+<div id="Error3">Bitte überprüfen Sie Ihre E-Mail-Adresse.</div>
+<div id="Data1">Der NV. Dongle mit der Seriennummer %d wurde erkannt.</div>
+
+<!-- JS helper -->
+<script type="text/javascript">
+function n(a,nx)
+{
+  if (!a.value || event.keyCode < 48) return true;
+	if (a.value.length != 4) return true;
+	b=document.getElementById(nx);
+	b.focus();
+	return true;
+}
+</script>
+
+</body>
+</html>
+

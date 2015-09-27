@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>nv. digital</title>
+
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+<body>
+
+<!-- kopf -->
+<div class="head"><table><tr><td><img src='../logo.gif'></td><td valign="bottom">Registrering &gt;&gt; Elektronisk Søkort</td></tr></table></div>
+
+<!-- inhalt -->
+<div class="body">
+
+<p>Kontakt os for at modtage den nødvendige Activation Code:</p>
+<ul>
+ <li>Internet: www.nv-verlag.de &gt; CD-Registrierung</li>
+ <li>E-mail:   reg@nv-verlag.de</li>
+ <li>Fax:      +49 (0) 46 42 / 92 46 92</li>
+ <li>Telefon:  +49 (0) 46 42 / 92 46 31</li>
+</ul>
+<p><b>Vi har brug for følgende informationer:</b></p>
+<table>
+<tr><td>For- og efternavn:</td><td><b id="name1">xxxx</b> <b id="name2">xxxx</b></td></tr>
+<tr><td>E-mail-adresse:</td><td><b id="email">xxxx</b></td></tr>
+<tr><td>Installation ID:</td><td><b id="installationid">xxxx</b></td></tr>
+<tr><td>Product ID:</td><td><b id="productid">xxxx</b></td></tr>
+</table>
+
+<p>Indtast her den modtagne Activation Code og klik på Aktiver:</p>
+<table><tr>
+<td><input type="text" size="4" maxlength="4" id="part1" onkeyup="n(this,'part2')">-<input type="text" size="4" maxlength="4" id="part2" onkeyup="n(this,'part3')">-<input type="text" size="4" maxlength="4" id="part3" onkeyup="n(this,'part4')">-<input type="text" size="4" maxlength="4" id="part4" onkeyup="n(this,'part5')">-<input type="text" size="4" maxlength="4" id="part5" onkeyup="n(this,'Submit')"></td>
+<td style="text-align:right"><input type="button" id="Submit" value="Aktivieren"></td>
+</tr></table>
+<p>Klik på Print for at trykke denne side eller på Tilbage for at skifte til forrige side.</p>
+<p><input type="button" onClick="print()" value="Print"> <input type="button" id="Button1" value="Tilbage"></p>
+
+</div><!-- ende inhalt-->
+
+<!-- diese Fehlermeldunden müssen Unsichtbar sein -->
+<div id="Error1">Kontroller Activation Code.</div>
+
+<!-- JS helper -->
+<script type="text/javascript">
+function n(a,nx)
+{
+  if (!a.value || event.keyCode < 48) return true;
+	if (a.value.length != 4) return true;
+	b=document.getElementById(nx);
+	b.focus();
+	return true;
+}
+</script>
+
+</body>
+</html>
+

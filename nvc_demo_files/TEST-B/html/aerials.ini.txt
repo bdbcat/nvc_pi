@@ -1,0 +1,4 @@
+# All Languages
+language *
+localdir \nvinst\aerials
+copy .\

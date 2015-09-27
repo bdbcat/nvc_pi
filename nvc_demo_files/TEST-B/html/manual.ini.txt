@@ -1,0 +1,18 @@
+# All Languages
+language *
+localdir \nvinst\manual
+programs "nv. digital"
+
+Productnumber 2
+
+# German Part
+language de
+Productname Zubehör
+copy Handbuch.pdf
+menu "Handbuch Chart Navigator" Handbuch.pdf
+
+# Danish Part
+language dk
+Productname Tilbehør
+copy Handbuch.pdf
+menu "Håndbog Chart Navigator" Handbuch.pdf

@@ -1,0 +1,4 @@
+[autorun]
+label=nv. digital
+icon=nvinst.ico
+open=setup.exe
