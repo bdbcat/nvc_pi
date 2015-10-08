@@ -1,0 +1,26 @@
+Hello Dave,
+
+Thanks for the licence agreement. For the first it is enough, but I would be pleased if you can send me a manually signed agreement, when it is possible.
+
+Attached you find the documentations for the nv.digital SDK.
+
+Here is your manufacturer key, which is unique to your company:
+  { 0x0cd9469e,0x657f194c,0x1d952eaa,0x5a9b7e38 },
+
+The DLL will be installed by the installer of the chart CDs. Under following links you will find two sample CD with the DLL and nv.digital data for testing:
+
+http://www.nv-verlag.eu/ftp/outgoing/TEST-A.zip
+
+http://www.nv-verlag.eu/ftp/outgoing/TEST-B.zip
+
+The Product ID for TEST-A is: 6ded-2104-9d5e-c6dc
+The Product ID for TEST-B is: cd2a-01a3-a377-2723
+(These Product IDs are not restricted. You may use them as many time as you like.)
+
+Please let me know if you have any question.
+
+Regards,
+
+Ilja
+
+
