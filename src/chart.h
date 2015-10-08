@@ -258,7 +258,7 @@ class PIPixelCache
 // ChartNVC Definition
 // ----------------------------------------------------------------------------
 
-class  ChartNVC : public PlugInChartBase 
+class  ChartNVC : public PlugInChartBase
 {
       DECLARE_DYNAMIC_CLASS(ChartNVC)
 
@@ -285,6 +285,7 @@ class  ChartNVC : public PlugInChartBase
       virtual int latlong_to_pix_vp(double lat, double lon, int &pixx, int &pixy, PlugIn_ViewPort& vp);
       virtual int vp_pix_to_latlong(PlugIn_ViewPort& vp, int pixx, int pixy, double *lat, double *lon);
       virtual void latlong_to_chartpix(double lat, double lon, double &pixx, double &pixy);
+      virtual void chartpix_to_latlong(double pixx, double pixy, double *plat, double *plon);
 
       wxBitmap &RenderRegionView(const PlugIn_ViewPort& VPoint, const wxRegion &Region);
 
@@ -483,7 +484,7 @@ protected:
 
 //    Decryption dll support
       wxDynamicLibrary  *m_pdyn;
-      void              *pfn_nvc_init_dll; 
+      void              *pfn_nvc_init_dll;
       void              *pfn_nvc_getkeyhandle;
       void              *pfn_nvc_decrypt_block;
       int               m_decrypthandle;
@@ -581,4 +582,4 @@ typedef struct {
 
 
 
- 
+

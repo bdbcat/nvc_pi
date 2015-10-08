@@ -2384,6 +2384,69 @@ void ChartNVC::latlong_to_chartpix(double lat, double lon, double &pixx, double 
       }
 }
 
+void ChartNVC::chartpix_to_latlong(double pixx, double pixy, double *plat, double *plon)
+{
+      if(bHaveEmbeddedGeoref)
+      {
+            double lon = polytrans( pwx, pixx, pixy );
+            lon = (lon < 0) ? lon + m_cph : lon - m_cph;
+            *plon = lon - m_lon_datum_adjust;
+            *plat = polytrans( pwy, pixx, pixy ) - m_lat_datum_adjust;
+      }
+      else
+      {
+            double slat, slon;
+            if(m_projection == PI_PROJECTION_TRANSVERSE_MERCATOR)
+            {
+                   //      Use Projected Polynomial algorithm
+
+                  //    Apply polynomial solution to chart relative pixels to get e/n
+                  double east  = polytrans( cPoints.pwx, pixx, pixy );
+                  double north = polytrans( cPoints.pwy, pixx, pixy );
+
+                  //    Apply inverse Projection to get lat/lon
+                  double lat,lon;
+                  fromTM ( east, north, m_proj_lat, m_proj_lon, &lat, &lon );
+
+                  //    Datum adjustments.....
+//??                  lon = (lon < 0) ? lon + m_cph : lon - m_cph;
+                  slon = lon - m_lon_datum_adjust;
+                  slat = lat - m_lat_datum_adjust;
+
+
+            }
+            else if(m_projection == PI_PROJECTION_MERCATOR)
+            {
+                   //      Use Projected Polynomial algorithm
+                  //    Apply polynomial solution to chart relative pixels to get e/n
+                  double east  = polytrans( cPoints.pwx, pixx, pixy );
+                  double north = polytrans( cPoints.pwy, pixx, pixy );
+
+                  //    Apply inverse Projection to get lat/lon
+                  double lat,lon;
+                  fromSM_ECC ( east, north, m_proj_lat, m_proj_lon, &lat, &lon );
+
+                  //    Make Datum adjustments.....
+                  slon = lon - m_lon_datum_adjust;
+                  slat = lat - m_lat_datum_adjust;
+            }
+            else
+            {
+                  slon = 0.;
+                  slat = 0.;
+            }
+
+            *plat = slat;
+
+            if(slon < -180.)
+                  slon += 360.;
+            else if(slon > 180.)
+                  slon -= 360.;
+            *plon = slon;
+
+      }
+
+}
 
 void ChartNVC::ComputeSourceRectangle(const PlugIn_ViewPort &vp, wxRect *pSourceRect)
 {
@@ -3310,14 +3373,14 @@ bool ChartNVC::GetAndScaleData(unsigned char *ppn, wxRect& source, int source_st
 bool ChartNVC::GetChartBits(wxRect& source, unsigned char *pPix, int sub_samp)
 {
     // temporarily change the palette direction
-#ifdef __WXMSW__
+#ifdef __NEED_PALETTE_REV__
     palette_direction = PaletteRev;
     pPalette = GetPalettePtr(m_mapped_color_index);
 #endif
 
     bool ret_val = GetChartBits_Internal(source, pPix, sub_samp);
 
-#ifdef __WXMSW__
+#ifdef __NEED_PALETTE_REV__
     palette_direction = PaletteFwd;
     pPalette = GetPalettePtr(m_mapped_color_index);
 #endif
