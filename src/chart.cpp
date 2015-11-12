@@ -3727,12 +3727,21 @@ int   ChartNVC::BSBGetScanline( unsigned char *pLineBuf, int y, int xs, int xl, 
                         byNext = *lp++;
                         nRunCount = nRunCount * 128 + (byNext & 0x7f);
                   }
-
+/*
                   if( iPixel + nRunCount + 1 > Size_X )     // protection
                         nRunCount = Size_X - iPixel - 1;
 
                   if(nRunCount < 0)                         // against corrupt data
                       nRunCount = 0;
+*/
+
+                  if(( iPixel + nRunCount + 1 > Size_X ) || (nRunCount < 0) )   // against corrupt data
+                  {
+                    if(!bUseLineCache)
+                        free (xtemp_line);
+                    return 1;
+                  }
+
 
 //          Store nPixValue in the destination
                   memset(pCL, nPixValue, nRunCount+1);
